@@ -1,0 +1,13 @@
+package word;
+
+public class wordMain {
+
+    public static void main(String[] args){
+        System.out.println(word());
+    }
+
+    public static String word(){
+        return "Hello World!";
+    }
+
+}
