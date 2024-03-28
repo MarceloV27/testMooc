@@ -20,10 +20,18 @@ public class Main {
 
 
             String input = scanner.nextLine();
+
+
             if (input.equals("")) {
+
                 int index = list.size() -1 ;
 
-                System.out.println(index);
+                String firstItem = list.get(0);
+
+                String lastItem = list.get(index);
+
+                System.out.println(firstItem);
+                System.out.println(lastItem);
 
                 break;
             }
