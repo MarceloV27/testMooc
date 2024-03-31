@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -19,7 +18,7 @@ public class Main {
                 System.out.println("Search for? ");
                 int inputSearch = scanner.nextInt();
 
-            for(int i=0; i<=list.size()-1; i++){
+                for(int i=0; i< list.size(); i++){
 
                 int number = list.get(i);
 
@@ -29,17 +28,11 @@ public class Main {
 
             }
 
-
-
-
                 break;
             }
 
-
             list.add(input);
         }
-
-
 
         System.out.println("");
 

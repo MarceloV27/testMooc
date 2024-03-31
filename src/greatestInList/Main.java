@@ -23,15 +23,15 @@ public class Main {
                 int greater = list.get(0);
 
                 for(int i = 0; i < list.size(); i++) {
+
                     int number = list.get(i);
+
                     if (greater < number) {
                         greater = number;
                     }
                 }
 
                 System.out.println("The greater number: " + greater);
-
-
                 break;
 
             }
