@@ -30,16 +30,15 @@ public class Main {
 
         System.out.println("");
 
+        int helper = array[input];
+
+        array[input] = array[inputOne];
+
+        array[inputOne] = helper;
+
         index = 0;
         while (index < array.length) {
-
-            int helper = array[input];
-            int helper2 = array[inputOne];
-
-            helper=helper2;
-            helper2=helper;
-
-            System.out.println(helper2);
+            System.out.println(array[index]);
 
             index++;
         }
