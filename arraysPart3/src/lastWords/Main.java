@@ -1,5 +1,5 @@
-package firstWords;
-import java.security.Signature;
+package lastWords;
+
 import java.util.Scanner;
 
 public class Main {
@@ -12,17 +12,20 @@ public class Main {
 
             // Input User
             String inputUser = scanner.nextLine();
-            //Array
+            // Array
             String[] inputArray = inputUser.split(" ");
-            // Print
-            System.out.println(inputArray[0]);
-
-            // Exit Program
-            if(inputUser.equals(" ")){
+            //Exit
+            if (inputUser.equals(" ")){
                 break;
             }
+
+
+            System.out.println(inputArray[inputArray.length-1]);
         }
+
+
+
+
+
     }
-
-
 }

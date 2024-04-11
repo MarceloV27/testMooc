@@ -1,5 +1,5 @@
-package firstWords;
-import java.security.Signature;
+package ageOfTheOldest;
+
 import java.util.Scanner;
 
 public class Main {
@@ -10,19 +10,23 @@ public class Main {
 
         while(scanner.hasNext()){
 
-            // Input User
             String inputUser = scanner.nextLine();
-            //Array
-            String[] inputArray = inputUser.split(" ");
-            // Print
-            System.out.println(inputArray[0]);
 
-            // Exit Program
+            String[] inputArray = inputUser.split(" ");
+
             if(inputUser.equals(" ")){
                 break;
             }
+
+            
+
+
+
         }
+
+
+
+
+
     }
-
-
 }
