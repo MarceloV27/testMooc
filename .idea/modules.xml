@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/exercisesJavaArray/exercisesJavaArray.iml" filepath="$PROJECT_DIR$/exercisesJavaArray/exercisesJavaArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaComparisonOperators/javaComparisonOperators.iml" filepath="$PROJECT_DIR$/javaComparisonOperators/javaComparisonOperators.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaForLoop/javaForLoop.iml" filepath="$PROJECT_DIR$/javaForLoop/javaForLoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stringExecisesJava/stringExecisesJava.iml" filepath="$PROJECT_DIR$/stringExecisesJava/stringExecisesJava.iml" />
     </modules>
   </component>
 </project>

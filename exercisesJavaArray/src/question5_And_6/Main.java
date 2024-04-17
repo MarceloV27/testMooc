@@ -1,4 +1,4 @@
-package question5;
+package question5_And_6;
 
 import java.util.Arrays;
 
