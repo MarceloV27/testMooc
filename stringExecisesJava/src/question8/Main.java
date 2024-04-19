@@ -3,8 +3,6 @@ package question8;
 public class Main {
     public static void main(String[] args) {
 
-
-
         String string = "PHP Exercises and Python Exercises ";
 
         String char1 = "1";
@@ -14,6 +12,9 @@ public class Main {
         }else{
             System.out.println(false);
         }
+
+
+
 
     }
 }
