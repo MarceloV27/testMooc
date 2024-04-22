@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaMooc.iml" filepath="$PROJECT_DIR$/JavaMooc.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Part4/Part4.iml" filepath="$PROJECT_DIR$/Part4/Part4.iml" />
       <module fileurl="file://$PROJECT_DIR$/arraysPart3/arraysPart3.iml" filepath="$PROJECT_DIR$/arraysPart3/arraysPart3.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaComparisonOperators/javaComparisonOperators.iml" filepath="$PROJECT_DIR$/javaComparisonOperators/javaComparisonOperators.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaForLoop/javaForLoop.iml" filepath="$PROJECT_DIR$/javaForLoop/javaForLoop.iml" />
