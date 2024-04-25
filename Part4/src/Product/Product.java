@@ -1,4 +1,4 @@
-package deceasingCounter;
+package Product;
 
 public class Product {
 
