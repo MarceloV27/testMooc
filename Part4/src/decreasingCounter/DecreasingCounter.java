@@ -17,15 +17,24 @@ public class DecreasingCounter {
         // write the method implementation here
         // the aim is to decrement the value of the counter by one
 
-        if(this.value == 0 || this.value >= 1){
+        if(this.value >= 1){
             // Couter
             this.value--;
+
+        }else if (this.value <= 0 ){
+            this.value*=0;
+
+        }else{
+            System.out.println("Error, try again");
         }
 
     }
+
     // the other methods go here
     public void reset(){
-
+    if(this.value >= 1 ){
+        this.value*=0;
+    }
 
     }
 }
