@@ -1,24 +1,21 @@
-package debt;
+package Debt;
 
 public class Main {
     public static void main(String[] args) {
-
         // Test your Debt class here
-        Debt mortgage = new Debt(1500.0, 2.0);
+        Debt mortgage = new Debt(120000.0, 1.01);
         mortgage.printBalance();
 
         mortgage.waitOneYear();
         mortgage.printBalance();
-        mortgage.waitOneYear();
-        mortgage.waitOneYear();
 
-      /*  int years = 0;
+        int years = 0;
 
         while (years < 20) {
             mortgage.waitOneYear();
             years = years + 1;
         }
 
-        mortgage.printBalance();*/
+        mortgage.printBalance();
     }
 }
