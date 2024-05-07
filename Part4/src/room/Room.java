@@ -9,6 +9,4 @@ public class Room {
         this.code = classCode;
         this.seats = numberOfSeats;
     }
-
-
 }

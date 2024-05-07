@@ -1,4 +1,4 @@
-package mainProgram;
+package Dog;
 
 public class Dog {
 
