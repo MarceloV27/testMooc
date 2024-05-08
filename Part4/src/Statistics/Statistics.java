@@ -1,4 +1,4 @@
-package MainProgram;
+package Statistics;
 
 public class Statistics {
 
@@ -14,8 +14,7 @@ public class Statistics {
     public void addNumber(int number) {
         // write code here
 
-
-        sum = sum + number;
+        sum  = sum + number;
         count++;
     }
 
@@ -32,6 +31,12 @@ public class Statistics {
 
     public double average() {
         // write code here
+
+        if(count == 0){
+
+            return 0;
+
+        }
         return (double)sum/count;
     }
 
