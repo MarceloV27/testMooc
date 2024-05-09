@@ -33,9 +33,10 @@ public class Main {
         card.eatAffordably();
         System.out.println(card);*/
 
+/*
 
-
-        PaymentCard card = new PaymentCard(-1);
+        Part 4:
+        PaymentCard card = new PaymentCard(100);
         System.out.println(card);
 
         card.addMoney(15);
@@ -46,15 +47,15 @@ public class Main {
 
         card.addMoney(200);
         System.out.println(card);
+*/
 
 
+        // Part 5:
 
-       /* PaymentCard card = new PaymentCard(100);
+        PaymentCard card = new PaymentCard(10);
         System.out.println("Paul: " + card);
         card.addMoney(-15);
         System.out.println("Paul: " + card);
-
-*/
 
 
 

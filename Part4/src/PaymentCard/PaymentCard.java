@@ -36,23 +36,27 @@ public class PaymentCard {
     public void addMoney(double deposit) {
         // In this method variable DEPOSIT increase until $150 and do not display negative.
 
+             balance += deposit;
 
-       if (deposit < 0) {
-            balance *= 1;
-        } else if (deposit > 150) {
-            balance = 150;
-        } else if (balance <= 150) {
-            balance += deposit;
+                if (balance >= 150){
 
-        }
+                    balance = 150;
+                }else if (balance < 0){
 
-    }
+                }
 
+
+       }
 
     public String toString(){
         // NOT CHANGE IT BECAUSE IS A STRING!
         return "The card has a balance of " + balance +" euros";
     }
 
+    }
 
-}
+
+
+
+
+
