@@ -12,7 +12,7 @@ public class PaymentCard {
     public void eatAffordably(){
         // In side to this method you need to subtract $2.60 to your BALANCE
 
-        if(balance > 2.6){
+        if(balance >= 2.6){
             balance = balance - 2.6;
         }else if(balance ==0){
             balance = 0;
@@ -24,8 +24,8 @@ public class PaymentCard {
     public void eatHeartily(){
         // In side to this method you need to subtract $4.60 to your BALANCE
 
-        if(balance > 4.60){
-            balance = balance - 4.60;
+        if(balance >= 4.6){
+            balance = balance - 4.6;
         }else if (balance == 0){
             balance = 0;
         }else{
@@ -35,17 +35,17 @@ public class PaymentCard {
 
     public void addMoney(double deposit) {
         // In this method variable DEPOSIT increase until $150 and do not display negative.
+        // Fix error part number 5
 
-             balance += deposit;
-
-                if (balance >= 150){
-
+                if (balance + deposit >= 150){
                     balance = 150;
-                }else if (balance < 0){
-
+                }else if (balance + deposit <= 0){
+                  balance*=1;
+                }else if( deposit <= 0){
+                    balance *= 1;
+                }else{
+                    balance += deposit;
                 }
-
-
        }
 
     public String toString(){
