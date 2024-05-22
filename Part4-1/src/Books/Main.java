@@ -2,7 +2,9 @@ package Books;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
+/*
+* In this program this about User input book and display their book request
+* */
 public class Main {
     public static void main(String[] args) {
 
@@ -24,7 +26,7 @@ public class Main {
             System.out.print("Title:");
             String title = scanner.nextLine();
 
-            // Exit the loop and User Input request information.
+            // Exit the loop when is User input in empty and Display message.
             if(title.isEmpty()){
                 System.out.println("What information will be printed");
                 information = scanner.nextLine();
@@ -39,12 +41,12 @@ public class Main {
             System.out.print("Publication year:");
             int publicationYear = Integer.parseInt(scanner.nextLine());
 
-            // ArrayList 's Object (Book addition)
+            // ArrayList 's Object
             books.add(new Book(title, Pages, publicationYear));
         }
         // Finish While loop
 
-        // For loop to display for the User request
+        // For loop to display User request
         for(Book book : books){
 
             if(information.equals(everything)){
@@ -58,9 +60,7 @@ public class Main {
             }else{
                 System.out.println("Error");
             }
-
         }
-
+        scanner.close();
     }
-
 }
