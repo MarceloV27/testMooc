@@ -21,7 +21,6 @@ public class Main {
         }
 
     }
-
     public static void readfile(String fileName, String gamesTeam){
 
         int count = 0, wins = 0, losses = 0;
@@ -30,22 +29,23 @@ public class Main {
             String data;
             while(fileReader.hasNextLine()){
                 data = fileReader.nextLine();
-                if(data.contains(gamesTeam)){
-                    String[] parts = data.split(",");
-                    int team1 = Integer.parseInt(parts[2].trim());
+                String[] parts = data.split(",");
 
-                    if(team1 == 16){
-                        wins ++;
-                    } else{
+                if (data.contains(gamesTeam)) {
+                    String[] parts = data.split(",");
+                    int scoreTeam1 = Integer.parseInt(parts[2].trim());
+                    int scoreTeam2 = Integer.parseInt(parts[3].trim());
+
+                    if (data.contains(gamesTeam) && data.contains("SJ")) {
+                        wins++;
+                    } else if (scoreTeam1 < scoreTeam2) {
+                        wins++;
+                    } else {
                         losses++;
                     }
-
-
                     count++;
                 }
-
             }
-
         }catch(IOException e){
             System.out.println("error reading file");
         }
@@ -53,7 +53,5 @@ public class Main {
             System.out.println("Game: " + count);
             System.out.println("Wins: " + wins);
             System.out.println("Losses: " + losses);
-
-
     }
 }
