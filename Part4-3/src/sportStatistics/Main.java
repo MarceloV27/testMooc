@@ -20,7 +20,7 @@ public class Main {
             System.out.println(e.getMessage());
         }
 
-    }
+    }// Hello
     public static void readfile(String fileName, String gamesTeam){
 
         int count = 0, wins = 0, losses = 0;
@@ -29,7 +29,6 @@ public class Main {
             String data;
             while(fileReader.hasNextLine()){
                 data = fileReader.nextLine();
-                String[] parts = data.split(",");
 
                 if (data.contains(gamesTeam)) {
                     String[] parts = data.split(",");
