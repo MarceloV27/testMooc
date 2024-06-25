@@ -20,7 +20,7 @@ public class Main {
             System.out.println(e.getMessage());
         }
 
-    }// Hello Hello
+    }
     public static void readfile(String fileName, String gamesTeam){
 
         int count = 0, wins = 0, losses = 0;
