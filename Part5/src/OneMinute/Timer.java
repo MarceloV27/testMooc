@@ -1,6 +1,5 @@
 package OneMinute;
 
-
 public class Timer {
 
     private ClockHand oneForSecond;
