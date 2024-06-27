@@ -30,5 +30,6 @@ public class ClockHand {
 
         return "" + this.value;
     }
+
 }
 
