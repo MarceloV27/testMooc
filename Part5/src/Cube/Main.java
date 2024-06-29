@@ -1,7 +1,5 @@
 package Cube;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class Main {
     public static void main(String[] args) {
         Cube testOne = new Cube(50);
