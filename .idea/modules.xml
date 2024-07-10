@@ -9,9 +9,11 @@
       <module fileurl="file://$PROJECT_DIR$/Part4-3/Part4-3.iml" filepath="$PROJECT_DIR$/Part4-3/Part4-3.iml" />
       <module fileurl="file://$PROJECT_DIR$/Part5.1/Part5.iml" filepath="$PROJECT_DIR$/Part5.1/Part5.iml" />
       <module fileurl="file://$PROJECT_DIR$/Part5.3/Part5.3.iml" filepath="$PROJECT_DIR$/Part5.3/Part5.3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Part5.4/Part5.4.iml" filepath="$PROJECT_DIR$/Part5.4/Part5.4.iml" />
       <module fileurl="file://$PROJECT_DIR$/arraysPart3/arraysPart3.iml" filepath="$PROJECT_DIR$/arraysPart3/arraysPart3.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaComparisonOperators/javaComparisonOperators.iml" filepath="$PROJECT_DIR$/javaComparisonOperators/javaComparisonOperators.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaForLoop/javaForLoop.iml" filepath="$PROJECT_DIR$/javaForLoop/javaForLoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practiceConpcept/practiceConpcept.iml" filepath="$PROJECT_DIR$/practiceConpcept/practiceConpcept.iml" />
     </modules>
   </component>
 </project>
