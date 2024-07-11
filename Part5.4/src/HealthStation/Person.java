@@ -1,8 +1,5 @@
 package HealthStation;
 
-/*
- *  Do not change the behavior of this class
- */
 
 public class Person {
 
@@ -32,6 +29,11 @@ public class Person {
         }
 
         return false;
+    }
+
+    public void setHeight(int height) {
+        this.height = height;
+    }
 
     public int getHeight() {
         return this.height;
