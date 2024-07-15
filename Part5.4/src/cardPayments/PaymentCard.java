@@ -1,14 +1,15 @@
 package cardPayments;
 
 public class PaymentCard {
-    private double balance;
+     private double balance;
 
     public PaymentCard(double balance) {
         this.balance = balance;
+
     }
 
     public double balance() {
-        return this.balance ;
+        return this.balance;
     }
 
     public void addMoney(double increase) {
@@ -16,18 +17,17 @@ public class PaymentCard {
     }
 
     public boolean takeMoney(double amount) {
-        // implement the method so that it only takes money from the card if
-        // the balance is at least the amount parameter.
-        // returns true if successful and false otherwise
-
-        double result = this.balance - amount;
 
 
 
-        if(result < this.balance){
-            return true;
+        if(amount < this.balance){
+           this.balance = this.balance - amount;
+          return true;
+        }else{
+            return false;
         }
 
-        return false;
     }
+
+
 }

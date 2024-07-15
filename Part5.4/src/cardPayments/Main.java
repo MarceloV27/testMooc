@@ -1,26 +1,24 @@
 package cardPayments;
 
-public class Main {
-
+public class MainProgram {
     public static void main(String[] args) {
+        PaymentTerminal unicafeExactum = new PaymentTerminal();
 
-            PaymentCard petesCard = new PaymentCard(10);
+        double change = unicafeExactum.eatAffordably(10);
+        System.out.println("remaining change: " + change);
 
-            System.out.println("money " + petesCard.balance());
+        PaymentCard annesCard = new PaymentCard(7);
 
-            boolean wasSuccessful = petesCard.takeMoney(8);
+        boolean wasSuccessful = unicafeExactum.eatHeartily(annesCard);
 
-            System.out.println("successfully withdrew: " + wasSuccessful);
+        System.out.println("there was enough money: " + wasSuccessful);
+        wasSuccessful = unicafeExactum.eatHeartily(annesCard);
 
-            System.out.println("money " + petesCard.balance());
+        System.out.println("there was enough money: " + wasSuccessful);
+        wasSuccessful = unicafeExactum.eatAffordably(annesCard);
 
-            wasSuccessful = petesCard.takeMoney(4);
+        System.out.println("there was enough money: " + wasSuccessful);
 
-            System.out.println("successfully withdrew: " + wasSuccessful);
-
-            System.out.println("money " + petesCard.balance());
-
+        System.out.println(unicafeExactum);
     }
-
-
 }
