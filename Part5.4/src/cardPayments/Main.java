@@ -1,6 +1,7 @@
 package cardPayments;
 
-public class MainProgram {
+public class Main {
+
     public static void main(String[] args) {
         PaymentTerminal unicafeExactum = new PaymentTerminal();
 
@@ -10,15 +11,12 @@ public class MainProgram {
         PaymentCard annesCard = new PaymentCard(7);
 
         boolean wasSuccessful = unicafeExactum.eatHeartily(annesCard);
-
         System.out.println("there was enough money: " + wasSuccessful);
         wasSuccessful = unicafeExactum.eatHeartily(annesCard);
-
         System.out.println("there was enough money: " + wasSuccessful);
         wasSuccessful = unicafeExactum.eatAffordably(annesCard);
-
         System.out.println("there was enough money: " + wasSuccessful);
 
         System.out.println(unicafeExactum);
     }
-}
+    }

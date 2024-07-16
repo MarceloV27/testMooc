@@ -5,7 +5,6 @@ public class PaymentCard {
 
     public PaymentCard(double balance) {
         this.balance = balance;
-
     }
 
     public double balance() {
@@ -17,8 +16,6 @@ public class PaymentCard {
     }
 
     public boolean takeMoney(double amount) {
-
-
 
         if(amount < this.balance){
            this.balance = this.balance - amount;
