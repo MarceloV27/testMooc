@@ -44,7 +44,13 @@ public class PaymentTerminal {
 
 
 
-        return false;
+        if(card.takeMoney(2.5)){
+            this.affordableMeals++;
+            return true;
+        }else{
+            return false;
+        }
+
     }
 
     // Card payments don't increase the amount of chas in the register
@@ -53,10 +59,24 @@ public class PaymentTerminal {
         // if the payment card has enough money, the balance of the card is decreased by the price, and the method returns true
         // otherwise false is returned
 
+        if(card.takeMoney(4.3)){
+            this.heartyMeals++;
+            return true;
+        }else{
+            return false;
+        }
 
-        return false;
     }
 
+    public void addMoneyToCard(PaymentCard card, double sum){
+        if(sum < 0){
+           card.balance();
+        }else{
+            card.addMoney(sum);
+            money += sum;
+        }
+
+    }
 
     @Override
     public String toString() {
