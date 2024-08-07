@@ -20,8 +20,7 @@ public class Book {
         return publicationYear;
     }
 
-    public boolean Book(Scanner object){
-
+    public boolean Equal(Book object){
         return true;
     }
 

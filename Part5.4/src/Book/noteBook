@@ -62,6 +62,44 @@ ________________________________________________________________________________
 
 3.4) Test my assumption and test the program(original)
     * I discover I can use scanner object compare(but I don't how to use boolean equal method)
+____________________________________________________________________________________________________________________________
+
+2024-08-07
+
+
+CREATIVE PROBLEM-SOLVING: IDENTIFY THE TASK
+
+1) Define the problem
+
+What exactly are you being asked to do ?
+
+    Do not repeat again the same book (book name and public Year)
+__________________________________________________________________________________
+    Sketch it
+
+    * How do the different parts of the problem relate to each other?
+
+        Two book is equal when book name and public year are same
+
+    *What information can you write in?
+
+        Creat a method to check books are equal or not.
+
+    * What else can you work out or add in that would help?
+        N/A
+
+    *What do you need to find out?
+            I don't need to use my method
+
+    Other information?
+    Which of your notes, texts ,learning resources, websites etc. would be of most use?
+
+    Check my project identical Twins > class SimpleDate.
+
+
+
+
+
 
 
 
