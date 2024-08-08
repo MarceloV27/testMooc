@@ -1,0 +1,76 @@
+2024-08-08
+
+Part 1: Adding and listing items
+
+1) Define the problem
+
+What exactly are you being asked to do?
+Pint identifier_variable and Name_variable and stop the program when my input in empty.
+
+_______________________________________________________________________________________________________
+1.1) Sketch it
+
+How do the different parts of the problem relate to each others?
+Nothing
+
+What information can you write in?
+Code
+
+What else can you work out or add in that would help?
+While loop, if-else statements
+
+What do you need to find out?
+
+I need to add Array or not.
+__________________________________________________________________________________________________________
+
+1.2) Similarity to other problems?
+
+Similarity to other problems?
+Which kinds of problems have you solved before that were similar in some way to this?
+
+I think Last exercise. Part5.4 > Book
+
+1.3) Other information?
+
+Which of your notes, texts , learning resources, websited ect. would be of most use?
+
+* Mooc  https://java-programming.mooc.fi/part-5/4-objects-and-references
+
+---------------------------------------------------------------------------------------------------------------
+2 Identify a strategy: Weigh up alternative problem-solving strategies
+
+Strategy Option A (advantages):
+
+Create a while loop
+Create two variables (identifier variable : name variable )
+Create an if-else statement to exit the while loop when input is empty
+Create Array to add my variables
+display my output when if-else statement is empty
+
+
+Strategy Option A (disadvantages)
+ 9:24 2024-08-08 Test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

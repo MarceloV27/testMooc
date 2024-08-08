@@ -1,6 +1,6 @@
 package Book;
 
-import java.util.Scanner;
+
 
 public class Book {
 
@@ -20,8 +20,24 @@ public class Book {
         return publicationYear;
     }
 
-    public boolean Equal(Book object){
-        return true;
+    public boolean equals(Object compared){
+        if(this == compared){
+            return true;
+        }
+
+        if(!(compared instanceof Book)){
+            return false;
+        }
+
+        Book book = (Book) compared;
+
+        if(this.name.equals(book.getName()) && this.publicationYear == book.getPublicationYear()){
+
+            return true;
+        }
+
+        return false;
+
     }
 
 }
