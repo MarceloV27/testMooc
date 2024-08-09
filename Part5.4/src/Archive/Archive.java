@@ -2,6 +2,7 @@ package Archive;
 
 class Archive {
 
+
     private String identifier;
     private String name;
     Archive archiveCompare;
@@ -32,15 +33,13 @@ class Archive {
         return false;
         }
 
-        archiveCompare = (Archive) compared;
+          archiveCompare = (Archive) compared;
 
         if(this.identifier.equals(archiveCompare.getIdentifier()) && this.name.equals(archiveCompare.getName()) ){
             return true;
         }
 
         return false;
-
-
     }
 
 }
