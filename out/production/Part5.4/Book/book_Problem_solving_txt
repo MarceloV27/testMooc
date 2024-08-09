@@ -1,0 +1,128 @@
+Books
+
+1) Define the task
+
+Input books variable
+
+* (String) Name
+* (Int) Publication year
+
+if statement:
+
+If you have the same variable repeat again display message
+
+"The book is already on the list. Let's not add the same book again.
+
+and stop the program.
+
+with the final message
+
+"Thank you! Books added: 2"
+
+___________________________________________________________________________________
+
+2) Identify a strategy:
+
+* Read the program.
+
+* Take notes about the program.
+
+* Create assumption to solve the problem.
+
+* Test it (In the main original form)
+_______________________________________________________________________________
+2.1) Main program:
+
+* Main has scanner and Books Arraylist, and While loop
+
+if statement is if the name input is empty exit the while.
+
+Storage in the Book object add in the name, publicationYear add into ArrayList books.
+
+Book class:
+
+Two attribute String name and int publicationYear, contruction, and two return methods
+______________________________________________________________________________________
+
+2.2) Assumption
+
+a.1) Create a equal method(focus on variable name in the class book) to check and compare two different input.__
+it is not working (bad assumption)
+
+a.2) I can compare "name variable" book using "getname method"
+
+______________________________________________________________________________________
+3) Work it through systematically
+
+3.1) I check if  display message end of the program using toString - Update I could not it.
+
+3.2) I check again the problem statement.
+
+3.3) I create new assumption
+
+3.4) Test my assumption and test the program(original)
+    * I discover I can use scanner object compare(but I don't how to use boolean equal method)
+____________________________________________________________________________________________________________________________
+
+2024-08-07
+
+
+CREATIVE PROBLEM-SOLVING: IDENTIFY THE TASK
+
+1) Define the problem
+
+What exactly are you being asked to do ?
+
+    Do not repeat again the same book (book name and public Year)
+__________________________________________________________________________________
+    Sketch it
+
+    * How do the different parts of the problem relate to each other?
+
+        Two book are equal when book name and public year are same
+
+    *What information can you write in?
+
+        Creat a method to check books are equal or not.
+
+    * What else can you work out or add in that would help?
+        N/A
+
+    *What do you need to find out?
+            I do not need use my equal method
+
+    Other information?
+    Which of your notes, texts ,learning resources, websites etc. would be of most use?
+
+    Check my project identical Twins > class SimpleDate.
+
+
+------------------------------------------------------------------------------------------------------------------------
+2024-08-08
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
