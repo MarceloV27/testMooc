@@ -118,12 +118,33 @@ ________________________________________________________________________________
 Strategy Option B ( advantage)
 
 * Edit Archive class if statement(this.name.equals())
+* Edit main method if statement ( method .contains)
 * Investigate how words ArrayList/ commands dive into it / understand it / apply it
 * In the main method focus  in if statement and apply ArrayList investigation.
 * Done
 
 Strategy Option B (disadvantages)
 * It will be wast of time .
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+Choose Strategy:
+I will choose Strategy Option B
+
+-------------------------------------------------------------------------------------------------------------
+Step-by-Step:
+
+* Go to Archive class if statement and delete (this.name.equals()) Done
+* Go to main method change the method from .contains to .equals
+* This not working...
+
+
+
+
+
+
 
 
 

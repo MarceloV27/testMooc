@@ -2,7 +2,7 @@
 
 Part 1: Adding and listing items
 
-1) Define the proble m
+1) Define the problem
 
 What exactly are you being asked to do?
 Pint identifier_variable and Name_variable and stop the program when my input in empty.
@@ -56,6 +56,111 @@ Strategy Option A (disadvantages)
 
 Step by Step:
 11:35 AM 2024-08-09
+Done Part i
+
+|++|+|+|+|+||+|+|+|+|+|+|+||+|+|+|+|+|+|+|+|+|+|+|+|+|+|+|+|++|+|+|+|+|+|+|+|+|+|+|+|+|+|++|+|+|+|+|+|+
+
+Part 2: You only print once(per item)
+
+1) Define the problem
+
+if Identify variables are equal print the first identify variable and
+the name variables (are not affect they are equal or not)
+
+1.1) Sketch it
+
+How do the different parts of the problem relate to each others?
+
+* Identify variables are not to be equal
+* Print identify variable of the result if statement
+* Name variables possible are equal not worry much.
+
+What information can you write in?
+
+ * Rewrite  my archive class if statement
+ * Rewrite main class if statement
+
+What else can you work out or add in that would help?
+
+* In the main class has method are not it correctly, i can would it too
+* How to display first identify variables when it has same identify variables?
+
+What do you need to find out?
+* How it words ArrayList?
+
+* Check my code and test it.
+
+1.2) Similarity to other problems?
+
+Similarity to other problems?
+N/A
+
+1.3) Other information?
+
+Which of your notes, texts , learning resources, websited ect. would be of most use?
+N/A
+________________________________________________________________________________________________________
+2 Identify a strategy: Weigh up alternative problem-solving strategies
+
+Strategy Option A (advantages):
+
+* Edit Archive class if statement(this.name.equals())
+* Edit main method if statement ( method .contains)
+* Investigate how words ArrayList/ commands dive into it / understand it / apply it
+* In the main method focus  in if statement and apply ArrayList investigation.
+* Done
+
+Strategy Option A (disadvantages):
+* It will be wast of time.
+
+__________________________________________________________________________________________________________
+
+Strategy Option B ( advantage)
+
+* Edit Archive class if statement(this.name.equals())
+* Edit main method if statement ( method .contains)
+* Investigate how words ArrayList/ commands dive into it / understand it / apply it
+* In the main method focus  in if statement and apply ArrayList investigation.
+* Done
+
+Strategy Option B (disadvantages)
+* It will be wast of time .
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+Choose Strategy:
+I will choose Strategy Option B
+
+-------------------------------------------------------------------------------------------------------------
+Step-by-Step:
+
+* Go to Archive class if statement and delete (this.name.equals()) Done
+* Go to main method change the method from .contains to .equals
+* This not working...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

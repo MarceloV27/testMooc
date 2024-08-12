@@ -1,15 +1,12 @@
 package Archive;
 
-class Archive {
-
-
+public class Archive {
     private String identifier;
     private String name;
-    Archive archiveCompare;
 
-    Archive(String identifier, String name){
-        this.identifier = identifier;
-        this.name = name;
+    public Archive(String initialIdentifier, String initialName){
+        this.identifier = initialIdentifier;
+        this.name = initialName;
     }
 
     public String getIdentifier(){
@@ -20,26 +17,18 @@ class Archive {
         return name;
     }
 
-    public String toString(){
-        return this.identifier + ":" + this.name;
-    }
-
+    @Override
     public boolean equals(Object compared){
-        if(this.equals(compared)){
+        if(this == compared) {
             return true;
         }
 
         if(!(compared instanceof Archive)){
-        return false;
+            return false;
         }
 
-          archiveCompare = (Archive) compared;
+        Archive comparedItem = (Archive) compared;
 
-        if(this.identifier.equals(archiveCompare.getIdentifier()) && this.name.equals(archiveCompare.getName()) ){
-            return true;
-        }
-
-        return false;
+        return this.identifier.equals(comparedItem.identifier);
     }
-
 }

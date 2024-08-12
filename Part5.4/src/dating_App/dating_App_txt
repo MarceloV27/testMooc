@@ -1,0 +1,62 @@
+2024-08-12
+
+Programming exercise:
+Part 1: Dating app (3 parts)
+
+1) Define the problem
+
+I need to type in the simpleDate class this method "public void advance()" and create a day counter
+
+Strategy option A (advantage)
+Type the method
+
+ Strategy option A (disadvantage)
+ Wast of time
+
+Choose option:
+A
+
+Step-by-Step
+
+* Open SimpleDate class
+* Type the method
+* Inside the create a day counter
+* done.
+
+
+
+Programming exercise
+Part 2: Dating app (3 parts)
+
+1) Define the problem
+
+I need to change tha date by the number of days that is given.
+I need to use advance() method to make it possible.
+
+Strategy option A(advantage)
+Type in "SimpleDate class" public void advance(int howManyDays) increase days using "advance()" method
+
+Strategy option A(disadvantage)
+waste of time.
+
+
+Step by Step:
+
+* Go to SimpleDate class
+* type public void advance(int howManyDays)
+* inside public void advance(int howManyDays) use advance()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
