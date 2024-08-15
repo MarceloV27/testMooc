@@ -37,29 +37,30 @@ public class SimpleDate {
 
 
 
-    public void advance(){
+    public void advance(int date){
      /*   Check that calling the advance method advances the date by one. When you create an object
         SimpleDate date = new SimpleDate(26, 12, 2011); and call the method date.advance() once,
             the date should be 27.12.2011. expected:<27.1[2].2011> but was:<27.1[3].2011>*/
 
-        
-        if (this.day >= 30 && this.month >= 12){
 
 
-            this.day = 1;
+    if(this.day >= 30){
+        this.day = 1;
+
+        if (this.month == 12) {
             this.month = 0;
-
-            this.month ++;
+            this.month++;
             this.year++;
-
-        } else {
-            this.day++;
-
-        }
-
-        if(this.month >= 1 ){
+        }else{
             this.month++;
         }
 
+    }if(date >= 1 ){
+            this.day += date;
+        } else{
+            this.day++;
+        }
     }
+
+
 }

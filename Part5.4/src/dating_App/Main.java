@@ -3,11 +3,11 @@ package dating_App;
 public class Main {
     public static void main(String[] args) {
 
-        SimpleDate date = new SimpleDate(30,12,2011);
+        SimpleDate now = new SimpleDate(13, 2, 2015);
+        SimpleDate afterOneWeek = now;
+        afterOneWeek.advance(7);
 
-        for(int i =0; i <= 500; i++){
-            date.advance();
-            System.out.println(date);
-        }
+        System.out.println("Now: " + now);
+        System.out.println("After one week: " + afterOneWeek);
     }
 }
