@@ -26,41 +26,68 @@ public class SimpleDate {
             return true;
         }
 
-        if (this.year == compared.year && this.month == compared.month &&
-                this.day < compared.day) {
+        if (this.year == compared.year && this.month == compared.month
+                && this.day < compared.day) {
             return true;
         }
-
         return false;
     }
 
+    public void advance() {
 
+        if (this.day >= 30) {
+            this.day = 1;
 
+            if (this.month == 12) {
+                this.month = 0;
+                this.month++;
+                this.year++;
+            } else {
+                this.month++;
+            }
 
-    public void advance(int date){
-     /*   Check that calling the advance method advances the date by one. When you create an object
-        SimpleDate date = new SimpleDate(26, 12, 2011); and call the method date.advance() once,
-            the date should be 27.12.2011. expected:<27.1[2].2011> but was:<27.1[3].2011>*/
-
-
-
-    if(this.day >= 30){
-        this.day = 1;
-
-        if (this.month == 12) {
-            this.month = 0;
-            this.month++;
-            this.year++;
-        }else{
-            this.month++;
-        }
-
-    }if(date >= 1 ){
-            this.day += date;
-        } else{
+        } else {
             this.day++;
         }
+
     }
 
+    public void advance(int howManyDay) {
+
+        if (this.day >= 30) {
+            this.day = 0;
+            this.day += howManyDay;
+            if (this.month == 12) {
+                this.month = 1;
+                this.year++;
+
+            }
+        } else {
+            this.day++;
+        }
+
+    }
+
+    public SimpleDate afterNumberOfDays(int days) {
+        SimpleDate newDate = new SimpleDate(this.day, this.month, this.year);
+
+
+        if(newDate.day >= 30){
+            newDate.day = 0;
+            newDate.day += days ;
+            if(newDate.month == 12 ){
+                newDate.month = 1;
+                newDate.year++;
+            }else{
+                newDate.month++;
+            }
+
+        }else{
+
+        }
+
+        return newDate;
+
+    }
 
 }
