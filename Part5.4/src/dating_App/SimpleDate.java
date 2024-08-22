@@ -82,10 +82,7 @@ public class SimpleDate {
                 newDate.month++;
             }
 
-        }else{
-
         }
-
         return newDate;
 
     }
