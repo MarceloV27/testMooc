@@ -10,7 +10,6 @@ public class Menu {
     }
 
     public void addMeal(String meal){
-        // The first thing to do add
         meals.add(meal);
     }
 
@@ -19,15 +18,26 @@ public class Menu {
     }
 
     public void printMeals(){
-        for(String meal : meals){
-            if(meal.equals(meal)){
-                System.out.println(meal);
-            }
+        for(String meals: meals){
+            System.out.println(meals);
         }
+
+        for(int i = 0; i < meals.size(); i++){
+            String mealDisplay = meals.get(i);
+
+        }
+
+        }
+    }
+
+
+
+
+
 
     }
 
 
 
 
-}
+
