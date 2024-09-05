@@ -7,10 +7,17 @@ public class Menu {
 
     public Menu(){
         this.meals = new ArrayList<>();
+
     }
 
     public void addMeal(String meal){
-        meals.add(meal);
+
+        if(this.meals.contains(meal)){
+            return;
+        }else{
+            this.meals.add(meal);
+        }
+
     }
 
     public void clearMenu(){
@@ -18,26 +25,14 @@ public class Menu {
     }
 
     public void printMeals(){
+
         for(String meals: meals){
             System.out.println(meals);
         }
 
-        for(int i = 0; i < meals.size(); i++){
-            String mealDisplay = meals.get(i);
-
-        }
-
-        }
     }
 
 
 
 
-
-
     }
-
-
-
-
-
