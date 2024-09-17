@@ -12,6 +12,14 @@ public class Main {
         System.out.println(s);
 
         System.out.println();
+
+        s.add("b");
+        System.out.println(s);
+
+        System.out.println();
+
+        s.add("c");
+        System.out.println(s);
     }
 
 }
