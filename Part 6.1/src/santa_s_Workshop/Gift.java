@@ -17,9 +17,9 @@ public class Gift {
         return weight;
     }
 
-    // I do not know if this correct format to display this output
+
     public String toString(){
-        String gift = "Gift: " + this.name + "(" + this.weight + " kg"+")";
+        String gift = this.name + "(" + this.weight + " kg"+")";
 
         return  gift;
 
