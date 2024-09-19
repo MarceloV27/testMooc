@@ -49,4 +49,5 @@ public class SimpleCollection {
         }
         return printString + " has " + elements.size() + " " + elementString + printValues;
     }
+
 }

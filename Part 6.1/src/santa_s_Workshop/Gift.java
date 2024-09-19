@@ -17,7 +17,6 @@ public class Gift {
         return weight;
     }
 
-
     public String toString(){
         String gift = this.name + "(" + this.weight + " kg"+")";
 
