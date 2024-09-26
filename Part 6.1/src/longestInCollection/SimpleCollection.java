@@ -1,4 +1,4 @@
-/*package longestInCollection;*/
+package longestInCollection;
 
 import java.util.ArrayList;
 
