@@ -1,0 +1,146 @@
+Printing:
+
+When you want to print something write this line:
+System.out.println("Hello, world!");
+
+
+Program Boilerplate:
+
+You need a class and in this class needs name.
+That name class is the reference name of the file name.
+E.g:
+
+public class helloExample{
+public static void main(String[] args){
+    System.out.println("Hello!");
+    }
+}
+
+reference name:
+
+helloExample.java
+
+and just this display the message in this case "Hello!"
+
+7:48PM 2025-05-14
+
+Printing Multiple Line:
+
+You can print several messages using System.out.println();
+
+E.g
+System.out.println("Once upon on time");
+System.out.println("There was");
+System.out.println("a program.");
+
+You can use the command sout to type faster print command (System.out.println();)
+
+
+9:20 A.M
+2025-05-17
+Terminology and Code Commends
+
+Not do this:
+
+System.out.println("Hello"); System.out.println("word"); System.out.println("!");
+
+It is hard to read, void it!
+It is better use line breaks
+
+"\n" = Common line break.
+
+"\r\n" = This is a carriage return character.(focus on windows)
+
+"\r" =  moves the cursor to the beginning of the line ( Display the part the message you want to print)
+
+System.lineSeparator() = Do the same thing "\n" addition
+better use when your program is cross-platform.
+
+E.g
+         String text = "This is the first line. \nThis is the second line.";
+                System.out.println(text);
+                System.out.println();
+
+                String textWithCRLF = "This is the first line. \r\nThis is the second line.";
+                System.out.println(textWithCRLF);
+                System.out.println();
+
+                String testR = "This is the first line. \rThis is the second line.";
+                System.out.println(testR);
+                System.out.println();
+
+                String platformLineBreak = "This is the first line." + System.lineSeparator() + "This is the second line.";
+                System.out.println(platformLineBreak);
+
+Output:
+
+This is the first line.
+This is the second line.
+
+This is the first line.
+This is the second line.
+
+This is the second line.
+
+This is the first line.
+This is the second line.
+
+
+Comments
+Use it to clarify it or to add notes (not affect the final output
+but it has bad effect the your code presentation)
+
+\\ -> commend one line
+
+/* */ -> Commend multi-line
+
+11:10 AM
+2025-05-25
+_____________________
+Reading input:
+_____________________
+
+To read a input User. you need a scanner object
+E.g Scanner [scannerName] = new Scanner(System.in);
+
+How to use it ?
+Step 1: import package with this command:
+import java.util.Scanner;
+Step 2: inside the JVM type this Scanner [scannerName] = new Scanner(System.in);
+Step 3: Create a variable with the Scanner object
+String message = scanner.nextLine();
+Step 4: print the message variable
+Step 5: Done
+
+The input is read with the scanner object and use the .nextLine() method
+scanner.nextLine() call and wait for the user write something and presses enter.
+the provided string is assigned to a "string variable"
+_________________________________________________________________________________
+
+Fundamentals of String:
+__________________________________________________________________________________
+"String" is a abbreviation for "string of characters"
+describes: how the computer sees text on a more fundamental level:
+as a sequence of individual characters.
+
+In this lesson we use strings into ways
+System.out.println("Hello, world");
+or
+String name = scanner.nextLine();
+
+Look is this way a variables are containers
+they have name and data
+
+and you can assign a value by following the declaration
+with a equals sign: E.g String message = "Hello, world!";
+
+* You can referenced a variables by their name and then print the
+variable.
+System.out.println(message);
+
+When you use the quotation marks is called a "string literal"
+Void use quotation marks in variable name E.g
+
+String message = "Hello world!";
+System.out.println("message");
+
